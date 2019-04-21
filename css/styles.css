@@ -65,11 +65,7 @@ header h1, header h2 , footer h2{
 .profile-img {
   border-radius: 50%;
 }
-.download {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-}
+
 
 /* Footer */
 footer {
@@ -94,6 +90,11 @@ footer {
   color: #ee1732;
   text-decoration: none;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.download {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
 
 /* Navigation */
