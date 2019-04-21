@@ -57,6 +57,7 @@ ul {
 .uppercase {
   text-transform: uppercase;
 }
+
 /* Animation */
 @keyframes fadein {
     from { opacity: 0; }
@@ -161,6 +162,7 @@ h3 ~ p {
 .contact-info img {
   width: 55px;
   height: 55px;
+  border-radius: 10%;
 }
 
 /* Media Queries */
