@@ -13,8 +13,6 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0 0 0 150px;
-  padding-left: env(safe-area-inset-left);
-  padding-right: env(safe-area-inset-right);
   background: #f4f5ff;
   animation: fadein 2s;
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
@@ -101,12 +99,7 @@ footer {
 .contact-info a {
   padding: 12px;
   display: inline-block;
-  opacity: 0.65;
 }
-.contact-info a:hover {
-  opacity: 1;
-}
-
 
 /* Download */
 .btn {
@@ -127,8 +120,6 @@ footer {
   position: fixed;
   bottom: 0;
   right: 0;
-  padding: 7px;
-
 }
 
 /* Navigation */
@@ -170,6 +161,9 @@ h3 ~ p {
   width: 55px;
   height: 55px;
   border-radius: 10%;
+}
+.contact-info img:hover {
+  opacity: 0.5;
 }
 
 /* Media Queries */
