@@ -41,6 +41,9 @@ h3 {
 a {
   color: #ee1732;
 }
+a:hover {
+  text-decoration: none;
+}
 ul {
   margin-top : 0;
   list-style-type: square;
