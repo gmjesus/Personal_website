@@ -155,6 +155,9 @@ h3 ~ p {
   margin-bottom: 25px;
   margin-top: auto;
 }
+.work a {
+  color: black;
+}
 
 /* Contact */
 .contact-info img {
