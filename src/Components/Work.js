@@ -4,6 +4,7 @@ import { Card, Container, Row, Col, Image } from 'react-bootstrap';
 import bioconnect from '../Images/bioconnect.png';
 import pipers from '../Images/pipers.jpg';
 import elliott from '../Images/elliott.png';
+import manulife from '../Images/manulife.png';
 
 function Work() {
   return (
@@ -11,6 +12,23 @@ function Work() {
       <Card className="container" id="work">
         <Card.Body>
           <Card.Title as="h2">Work Experience</Card.Title>
+          <hr />
+          <Row>
+            <Col xs={4} sm={2}>
+              <div>
+                <a href="https://manulife.ca/" target="_blank" rel="noopener noreferrer"><Image src={manulife} style={{width: '100px'}}/></a>
+                <div><strong>Software Engineer</strong></div>
+                <div style={{color: 'gray', fontSize: '0.75em'}}>Sep - Dec 2019</div>
+              </div>
+            </Col>
+            <Col xs={8} sm={10}>
+              <div>
+                <ul>
+                  <li>To be determined...</li>
+                </ul>
+              </div>
+            </Col>
+          </Row>
           <hr />
           <Row>
             <Col xs={4} sm={2}>
