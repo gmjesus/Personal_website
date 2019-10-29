@@ -1,0 +1,17 @@
+body {
+  background: linear-gradient(rgba(140, 155, 175, 0.90), rgba(140, 155, 175, 0.90)),
+              url(./Images/board.jpg) no-repeat fixed;
+  background-size: cover;
+  font-size: 1.1em;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 300px;
+}
+
+.nav {
+  text-align: center;
+  display:inline-block;
+  float: none;
+}
