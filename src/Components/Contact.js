@@ -11,7 +11,7 @@ function Contact() {
       <Card className="container text-center" id="contact">
         <Card.Body>
           <Card.Title as="h2">Contact Me!</Card.Title>
-            <ButtonGroup>
+            <ButtonGroup size="lg">
               <Button variant="dark" href="mailto:jf2garci@edu.uwaterloo.ca"><EmailIcon fontSize="large"/></Button>
               <Button variant="dark" href="https://www.linkedin.com/in/jesus-garciam/"><LinkedInIcon fontSize="large"/></Button>
               <Button variant="dark" href="https://github.com/gmjesus"><GitHubIcon fontSize="large"/></Button>
