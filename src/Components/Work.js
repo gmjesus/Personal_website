@@ -14,14 +14,14 @@ function Work() {
           <Card.Title as="h2">Work Experience</Card.Title>
           <hr />
           <Row>
-            <Col xs={4} sm={2}>
+            <Col xs={12} md={2}>
               <div>
                 <a href="https://manulife.ca/" target="_blank" rel="noopener noreferrer"><Image src={manulife} style={{width: '100px'}}/></a>
                 <div><strong>Software Engineer</strong></div>
                 <div style={{color: 'gray', fontSize: '0.75em'}}>Sep - Dec 2019</div>
               </div>
             </Col>
-            <Col xs={8} sm={10}>
+            <Col xs={12} md={10}>
               <div>
                 <ul>
                   <li>To be determined...</li>
@@ -31,14 +31,14 @@ function Work() {
           </Row>
           <hr />
           <Row>
-            <Col xs={4} sm={2}>
+            <Col xs={12} md={2}>
               <div>
                 <a href="https://bioconnect.com/" target="_blank" rel="noopener noreferrer"><Image src={bioconnect} style={{width: '100px'}}/></a>
                 <div><strong>QA Analyst</strong></div>
                 <div style={{color: 'gray', fontSize: '0.75em'}}>Jan - Apr 2019</div>
               </div>
             </Col>
-            <Col xs={8} sm={10}>
+            <Col xs={12} md={10}>
               <div>
                 <ul>
                   <li>Built automation scripts using Python to improve the test cycle by reducing the time spent on manual testing</li>
@@ -51,14 +51,14 @@ function Work() {
           </Row>
           <hr />
           <Row>
-            <Col xs={4} sm={2}>
+            <Col xs={12} md={2}>
               <div>
                 <a href="https://pipersheath.com/" target="_blank" rel="noopener noreferrer"><Image src={pipers} style={{width: '100px'}}/></a>
                 <div><strong>Back Shop</strong></div>
                 <div style={{color: 'gray', fontSize: '0.75em'}}>Apr - Aug 2018</div>
               </div>
             </Col>
-            <Col xs={8} sm={10}>
+            <Col xs={12} md={10}>
               <div>
                 <ul>
                   <li>Performed as a team player with co-workers and other departments to increase productivity</li>
@@ -70,14 +70,14 @@ function Work() {
           </Row>
           <hr />
           <Row>
-            <Col xs={4} sm={2}>
+            <Col xs={12} md={2}>
               <div>
                 <a href="http://www.elliottmachinery.com/" target="_blank" rel="noopener noreferrer"><Image src={elliott} style={{width: '100px'}}/></a>
                 <div><strong>Inventory Clerk</strong></div>
                 <div style={{color: 'gray', fontSize: '0.75em'}}>Nov - Dec 2017</div>
               </div>
             </Col>
-            <Col xs={8} sm={10}>
+            <Col xs={12} md={10}>
             <div>
               <ul>
                 <li>Organized the amount of equipment and supplies available in storage with minimal supervision</li>
