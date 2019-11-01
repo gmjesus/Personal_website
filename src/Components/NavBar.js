@@ -29,13 +29,11 @@ function NavBar() {
             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link download href={resume}>View Resume</Nav.Link>
+            <Nav.Link href={resume}>View Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-
-
   );
 }
 
