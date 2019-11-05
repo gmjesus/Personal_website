@@ -26,26 +26,26 @@ function Skills() {
           <Row>
             <Col style={{borderRight: '1px solid #ccc'}}>
               <Card.Subtitle as="h4" className="text-muted">Programming Languages</Card.Subtitle>
-              <div>
-                <Image src={python} style={{width: '100px', padding: '5px'}} title="Python"/>
-                <Image src={cpp} style={{width: '100px', padding: '5px'}} title="C++"/>
-                <Image src={js} style={{width: '100px', padding: '5px'}} title="JavaScript"/>
-                <Image src={java} style={{width: '100px', padding: '5px'}} title="Java"/>
+              <div className="logos">
+                <Image src={python} title="Python"/>
+                <Image src={cpp} title="C++"/>
+                <Image src={js} title="JavaScript"/>
+                <Image src={java} title="Java"/>
               </div>
             </Col>
             <Col>
               <Card.Subtitle as="h4" className="text-muted">Tools & Technologies:</Card.Subtitle>
-              <div>
-                <Image src={react} style={{width: '100px', padding: '5px'}} title="ReactJS"/>
-                <Image src={mongo} style={{width: '100px', padding: '5px'}} title="MongoDB"/>
-                <Image src={node} style={{width: '100px', padding: '5px'}} title="NodeJS"/>
-                <Image src={bootstrap} style={{width: '100px', padding: '5px'}} title="Bootstrap"/>
-                <Image src={jest} style={{width: '100px', padding: '5px'}} title="Jest"/>
-                <Image src={git} style={{width: '100px', padding: '5px'}} title="Git"/>
-                <Image src={postman} style={{width: '100px', padding: '5px'}} title="Postman"/>
-                <Image src={jenkins} style={{width: '100px', padding: '5px'}} title="Jenkins"/>
-                <Image src={linux} style={{width: '100px', padding: '5px'}} title="Linux"/>
-                <Image src={vs} style={{width: '100px', padding: '5px'}} title="Visual Studio"/>
+              <div className="logos">
+                <Image src={react} title="ReactJS"/>
+                <Image src={mongo} title="MongoDB"/>
+                <Image src={node} title="NodeJS"/>
+                <Image src={bootstrap} title="Bootstrap"/>
+                <Image src={jest} title="Jest"/>
+                <Image src={git} title="Git"/>
+                <Image src={postman} title="Postman"/>
+                <Image src={jenkins} title="Jenkins"/>
+                <Image src={linux} title="Linux"/>
+                <Image src={vs} title="Visual Studio"/>
               </div>
             </Col>
           </Row>
