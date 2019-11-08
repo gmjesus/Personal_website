@@ -9,12 +9,12 @@ function About() {
       <Card className="vertical-center" id="about">
         <Card.Body>
         <Row>
-          <Col xs={12} lg={4}>
-            <Image src={photo} fluid className="profile-img" title="Jesus Garcia Moreno" alt="Jesus Garcia Moreno"/>
+          <Col xs={12} lg={4} style={{textAlign: "center"}}>
+            <Image src={photo} fluid as="h1" className="profile-img" title="Jesus Garcia Moreno" alt="Jesus Garcia Moreno"/>
           </Col>
           <Col xs={12} lg={8}>
-            <Card.Title as="h1">Jesus Garcia Moreno</Card.Title>
-            <Card.Subtitle as="h2" className="text-muted">Computer Engineering Student</Card.Subtitle>
+            <Card.Title as="h1" style={{textAlign: "center"}}>Jesus Garcia Moreno</Card.Title>
+            <Card.Subtitle as="h2" style={{textAlign: "center"}} className="text-muted">Computer Engineering Student</Card.Subtitle>
             <hr />
             <Card.Text>
             <span>I'm a second-year computer engineering student studying at the University of Waterloo, currently on my co-op term working as a software engineer at <a rel="noopener noreferrer" href="https://manulife.ca/" target="_blank">Manulife</a>. On my free time, I'm usually watching some Netflix and anime, keeping up with soccer, attending hackathons and tech challenges, or hanging out with friends!</span>
