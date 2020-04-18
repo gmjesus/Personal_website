@@ -17,7 +17,7 @@ function Work() {
             <Col xs={12} md={2}>
               <div>
                 <a href="https://manulife.ca/" target="_blank" rel="noopener noreferrer"><Image src={manulife} style={{width: '100px'}}/></a>
-                <div><strong>Software Engineer</strong></div>
+                <div><strong>Software Engineering Intern</strong></div>
                 <div style={{color: 'gray', fontSize: '0.75em'}}>Sep - Dec 2019</div>
               </div>
             </Col>
