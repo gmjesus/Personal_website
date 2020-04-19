@@ -9,7 +9,7 @@ import manulife from '../Images/manulife.png';
 function Work() {
   return (
     <Container>
-      <Card className="container" id="work">
+      <Card id="work">
         <Card.Body>
           <Card.Title as="h2">Work Experience</Card.Title>
           <hr />

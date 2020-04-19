@@ -19,7 +19,7 @@ import jest from '../Images/jest.png';
 function Skills() {
   return (
     <Container>
-      <Card className="container" id="skills">
+      <Card id="skills">
         <Card.Body>
           <Card.Title as="h2">Technical Skills</Card.Title>
           <hr />

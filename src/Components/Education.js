@@ -6,7 +6,7 @@ import photo from '../Images/uwaterloo.png'
 function Education() {
   return (
     <Container>
-      <Card className="container" id="education">
+      <Card id="education">
         <Card.Body>
           <Card.Title as="h2">Education</Card.Title>
           <hr />

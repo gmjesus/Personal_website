@@ -8,7 +8,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 function Contact() {
   return (
     <Container>
-      <Card className="container text-center" id="contact">
+      <Card className="text-center" id="contact">
         <Card.Body>
           <Card.Title as="h2">Contact Me!</Card.Title>
             <ButtonGroup size="lg">
