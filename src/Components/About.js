@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../App.css';
 import { Card, Container, Image, Col, Row } from 'react-bootstrap';
 import photo from '../Images/jesus_gm.jpg'
 
 function About() {
+  useEffect(() => {
+    document.title = "Jesus Garcia Moreno - About";
+  }, [])
+
   return (
     <Container>
       <Card className="vertical-center" id="about">

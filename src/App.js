@@ -15,12 +15,12 @@ function App() {
       <div>
         <NavBar />
         <Switch>
-          <Route exact path="/" render={About} />
-          <Route exact path="/about" render={About} />
-          <Route exact path="/skills" render={Skills} />
-          <Route exact path="/work" render={Work} />
-          <Route exact path="/education" render={Education} />
-          <Route exact path="/contact" render={Contact} />
+          <Route exact path="/" component={About} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/skills" component={Skills} />
+          <Route exact path="/work" component={Work} />
+          <Route exact path="/education" component={Education} />
+          <Route exact path="/contact" component={Contact} />
           <Route exact path="/not-found" component={NotFound} />
           <Redirect to="/not-found" />
         </Switch>

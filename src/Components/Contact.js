@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../App.css';
 import { Card, Container, Button, ButtonGroup, Row, Col } from 'react-bootstrap';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -6,6 +6,10 @@ import EmailIcon from '@material-ui/icons/Email';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 function Contact() {
+  useEffect(() => {
+    document.title = "Jesus Garcia Moreno - Contact";
+  }, [])
+
   return (
     <Container>
       <Card id="contact">

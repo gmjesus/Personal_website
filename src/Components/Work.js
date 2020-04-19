@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../App.css';
 import { Card, Container, Row, Col, Image } from 'react-bootstrap';
 import bioconnect from '../Images/bioconnect.png';
@@ -7,6 +7,10 @@ import elliott from '../Images/elliott.png';
 import manulife from '../Images/manulife.png';
 
 function Work() {
+  useEffect(() => {
+    document.title = "Jesus Garcia Moreno - Work";
+  }, [])
+
   return (
     <Container>
       <Card id="work">

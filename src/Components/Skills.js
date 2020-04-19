@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../App.css';
 import { Card, Container, Col, Row, Image } from 'react-bootstrap';
 import python from '../Images/python.png';
@@ -17,6 +17,10 @@ import bootstrap from '../Images/bootstrap.png';
 import jest from '../Images/jest.png';
 
 function Skills() {
+  useEffect(() => {
+    document.title = "Jesus Garcia Moreno - Skills";
+  }, [])
+
   return (
     <Container>
       <Card id="skills">

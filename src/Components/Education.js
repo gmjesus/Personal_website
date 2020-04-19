@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../App.css';
 import { Card, Container } from 'react-bootstrap';
 import photo from '../Images/uwaterloo.png'
 
 function Education() {
+  useEffect(() => {
+    document.title = "Jesus Garcia Moreno - Education";
+  }, [])
+
   return (
     <Container>
       <Card id="education">

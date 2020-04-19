@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../App.css';
 import { Card, Container } from 'react-bootstrap';
 
 function Contact() {
+  useEffect(() => {
+    document.title = "Jesus Garcia Moreno - Not Found";
+  }, [])
+
   return (
     <Container>
       <Card>
