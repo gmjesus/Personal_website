@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import '../App.css';
 import { Card, Container } from 'react-bootstrap';
 
-function Contact() {
+function NotFound() {
   useEffect(() => {
     document.title = "Jesus Garcia Moreno - Not Found";
   }, [])
@@ -19,4 +19,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default NotFound;
