@@ -9,28 +9,7 @@ body {
   -ms-animation: fadein 2s; /* Internet Explorer */
 }
 
-.profile-img {
-  border-radius: 50%;
-  width: 300px;
-}
-
-.nav {
-  text-align: center;
-  display:inline-block;
-  float: none;
-}
-
-ul {
-  list-style-type: circle;
-}
-
-.logos img {
-  width: 100px; 
-  padding: 5px;
-}
-
 /* Animation */
-
 @keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }

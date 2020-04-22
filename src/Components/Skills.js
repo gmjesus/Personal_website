@@ -1,25 +1,33 @@
 import React, { useEffect } from 'react';
 import '../App.css';
+import './Skills.css';
 import { Card, Container, Col, Row, Image } from 'react-bootstrap';
-import python from '../Images/python.png';
-import cpp from '../Images/cpp.png';
-import java from '../Images/java.png';
-import js from '../Images/js.svg';
-import react from '../Images/react.png';
-import mongo from '../Images/mongo.png';
-import node from '../Images/node.png';
-import git from '../Images/git.png';
-import postman from '../Images/postman.png';
-import jenkins from '../Images/jenkins.png';
-import linux from '../Images/linux.png';
-import vs from '../Images/vs.png';
-import bootstrap from '../Images/bootstrap.png';
-import jest from '../Images/jest.png';
 
 function Skills() {
   useEffect(() => {
     document.title = "Jesus Garcia Moreno - Skills";
   }, [])
+
+  const data = {
+    "languages": [
+      { "title": "Python", "image": require('../Images/python.png')},
+      { "title": "C++", "image": require('../Images/cpp.png')},
+      { "title": "JavaScript", "image": require('../Images/js.svg')},
+      { "title": "Java", "image": require('../Images/java.png')}
+    ],
+    "tools": [
+      { "title": "ReactJS", "image": require('../Images/react.png')},
+      { "title": "MongoDB", "image": require('../Images/mongo.png')},
+      { "title": "NodeJS", "image": require('../Images/node.png')},
+      { "title": "Bootstrap", "image": require('../Images/bootstrap.png')},      
+      { "title": "Jest", "image": require('../Images/jest.png')},
+      { "title": "Git", "image": require('../Images/git.png')},
+      { "title": "Postman", "image": require('../Images/postman.png')},
+      { "title": "Jenkins", "image": require('../Images/jenkins.png')},
+      { "title": "Linux", "image": require('../Images/linux.png')},
+      { "title": "Visual Studio", "image": require('../Images/vs.png')}
+    ]
+  }
 
   return (
     <Container>
@@ -28,33 +36,29 @@ function Skills() {
           <Card.Title as="h2">Technical Skills</Card.Title>
           <hr />
           <Row>
-            <Col style={{borderRight: '1px solid #ccc'}}>
+            <Col className="divider">
               <Card.Subtitle as="h4" className="text-muted">Programming Languages</Card.Subtitle>
               <div className="logos">
-                <Image src={python} title="Python"/>
-                <Image src={cpp} title="C++"/>
-                <Image src={js} title="JavaScript"/>
-                <Image src={java} title="Java"/>
+                {data.languages.map((item, key) => {
+                  return(
+                    <Image src={item.image} title={item.title} key={key}/>
+                  )
+                })}
               </div>
             </Col>
             <Col>
               <Card.Subtitle as="h4" className="text-muted">Tools & Technologies:</Card.Subtitle>
               <div className="logos">
-                <Image src={react} title="ReactJS"/>
-                <Image src={mongo} title="MongoDB"/>
-                <Image src={node} title="NodeJS"/>
-                <Image src={bootstrap} title="Bootstrap"/>
-                <Image src={jest} title="Jest"/>
-                <Image src={git} title="Git"/>
-                <Image src={postman} title="Postman"/>
-                <Image src={jenkins} title="Jenkins"/>
-                <Image src={linux} title="Linux"/>
-                <Image src={vs} title="Visual Studio"/>
+                {data.tools.map((item, key) => {
+                  return(
+                    <Image src={item.image} title={item.title} key={key}/>
+                  )
+                })}
               </div>
             </Col>
           </Row>
         </Card.Body>
-        <Card.Footer style={{textAlign: 'center'}} className="text-muted">&copy; 2020 Jesus Garcia Moreno. All Rights Reserved.</Card.Footer>
+        <Card.Footer className="text-center text-muted">&copy; 2020 Jesus Garcia Moreno. All Rights Reserved.</Card.Footer>
       </Card>
     </Container>
   );

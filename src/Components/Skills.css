@@ -1,0 +1,8 @@
+.logos img {
+  width: 100px; 
+  padding: 5px;
+}
+
+.divider {
+  border-right: 1px solid #ccc;
+}

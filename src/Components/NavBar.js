@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import './NavBar.css';
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import resume from "../resume.pdf";

@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import '../App.css';
+import './Contact.css';
 import { Card, Container, Button, ButtonGroup, Row, Col } from 'react-bootstrap';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
@@ -18,7 +19,7 @@ function Contact() {
           <hr />
           <Row>
             <Col xs={12} md={6}>
-              <Card.Text style={{marginBottom: "8px"}}>
+              <Card.Text className="text-card">
                 <span>Want to chat or learn more about me? Feel free to use my contact information on this page!</span>
               </Card.Text>
             </Col>
@@ -31,7 +32,7 @@ function Contact() {
             </Col>
           </Row>
         </Card.Body>
-        <Card.Footer style={{textAlign: 'center'}} className="text-muted">&copy; 2020 Jesus Garcia Moreno. All Rights Reserved.</Card.Footer>
+        <Card.Footer className="text-center text-muted">&copy; 2020 Jesus Garcia Moreno. All Rights Reserved.</Card.Footer>
       </Card>
     </Container>
   );

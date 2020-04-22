@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import '../App.css';
+import './Work.css';
 import { Card, Container, Row, Col, Image } from 'react-bootstrap';
 
 function Work() {
@@ -75,7 +76,7 @@ function Work() {
                     <div>
                       <a href={item.company_link} title={item.company} target="_blank" rel="noopener noreferrer"><Image src={item.image} style={{width: '100px'}}/></a>
                       <div><strong>{item.title}</strong></div>
-                      <div style={{color: 'gray', fontSize: '0.75em'}}>{item.dates}</div>
+                      <div className="text-date">{item.dates}</div>
                     </div>
                   </Col>
                   <Col xs={12} md={10}>
@@ -94,7 +95,7 @@ function Work() {
             )
           })}
         </Card.Body>
-        <Card.Footer style={{textAlign: 'center'}} className="text-muted">&copy; 2020 Jesus Garcia Moreno. All Rights Reserved.</Card.Footer>
+        <Card.Footer className="text-center text-muted">&copy; 2020 Jesus Garcia Moreno. All Rights Reserved.</Card.Footer>
       </Card>
     </Container>
   );

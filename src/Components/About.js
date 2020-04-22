@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import '../App.css';
+import './About.css';
 import { Card, Container, Image, Col, Row } from 'react-bootstrap';
 import photo from '../Images/jesus_gm.jpg'
 
@@ -28,7 +29,7 @@ function About() {
           </Col>
         </Row>
         </Card.Body>
-        <Card.Footer style={{textAlign: 'center'}} className="text-muted">&copy; 2020 Jesus Garcia Moreno. All Rights Reserved.</Card.Footer>
+        <Card.Footer className="text-center text-muted">&copy; 2020 Jesus Garcia Moreno. All Rights Reserved.</Card.Footer>
       </Card>
     </Container>
   );
