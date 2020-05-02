@@ -11,6 +11,16 @@ function Work() {
   const data = [
     {
       "title": "Software Engineering Intern",
+      "company": "PagerDuty",
+      "company_link": "https://www.pagerduty.com/",
+      "image": require("../Images/pagerduty.png"),
+      "dates": "May - Aug 2020",
+      "details": [
+        "To be determined..."
+      ]
+    },
+    {
+      "title": "Software Engineering Intern",
       "company": "Manulife",
       "company_link": "https://manulife.ca/",
       "image": require("../Images/manulife.png"),
