@@ -46,7 +46,7 @@ function Contact() {
               </Alert>
             : ""
           }
-          <Form name="contact-form" netlify onSubmit={handleSubmit}>
+          <Form name="contact-form" data-netlify="true" onSubmit={handleSubmit}>
             <Form.Group controlId="name">
               <Form.Label>Name</Form.Label>
               <Form.Control type="name" placeholder="Enter name" required/>
