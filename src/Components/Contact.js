@@ -16,7 +16,6 @@ function Contact() {
   const handleSubmit = (evt) => {
     evt.preventDefault();
     evt.target.reset();
-    setShow(true);
   }
 
   return (
@@ -46,7 +45,7 @@ function Contact() {
               </Alert>
             : ""
           }
-          <Form name="contact" action="post">
+          <Form name="contact" method="post" onSubmit={handleSubmit}>
             <input type="hidden" name="form-name" value="contact" />
             <Form.Group controlId="name">
               <Form.Label>Name</Form.Label>
@@ -60,7 +59,6 @@ function Contact() {
               <Form.Label>Message</Form.Label>
               <Form.Control name="message" as="textarea" rows="3" placeholder="Enter message" required/>
             </Form.Group>
-            <div data-netlify-recaptcha="true"></div>
             <Button variant="dark" type="submit">Submit</Button>
           </Form>
         </Card.Body>
