@@ -46,10 +46,11 @@ function Contact() {
               </Alert>
             : ""
           }
-          <Form name="contact-form" action="POST" data-netlify="true" onSubmit={handleSubmit}>
+          <Form name="contact" action="post">
+            <input type="hidden" name="form-name" value="contact" />
             <Form.Group controlId="name">
               <Form.Label>Name</Form.Label>
-              <Form.Control name="name" type="name" placeholder="Enter name" required/>
+              <Form.Control name="name" type="text" placeholder="Enter name" required/>
             </Form.Group>
             <Form.Group controlId="email">
               <Form.Label>Email Address</Form.Label>
@@ -59,9 +60,7 @@ function Contact() {
               <Form.Label>Message</Form.Label>
               <Form.Control name="message" as="textarea" rows="3" placeholder="Enter message" required/>
             </Form.Group>
-            <div class="field">
-              <div data-netlify-recaptcha="true"></div>
-            </div>
+            <div data-netlify-recaptcha="true"></div>
             <Button variant="dark" type="submit">Submit</Button>
           </Form>
         </Card.Body>
