@@ -59,6 +59,7 @@ function Contact() {
               <Form.Label>Message</Form.Label>
               <Form.Control name="message" as="textarea" rows="3" placeholder="Enter message" required/>
             </Form.Group>
+            <div data-netlify-recaptcha="true"></div>
             <Button variant="dark" type="submit">Send</Button>
           </Form>
         </Card.Body>
