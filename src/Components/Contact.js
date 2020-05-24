@@ -7,16 +7,9 @@ import EmailIcon from '@material-ui/icons/Email';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 function Contact() {
-  const [show, setShow] = useState(false);
-
   useEffect(() => {
     document.title = "Jesus Garcia Moreno - Contact";
   }, [])
-
-  const handleSubmit = (evt) => {
-    evt.preventDefault();
-    evt.target.reset();
-  }
 
   return (
     <Container>
@@ -24,27 +17,20 @@ function Contact() {
         <Card.Body>
           <Card.Title as="h2">Contact</Card.Title>
           <hr />
-          <Row>
+          <Row className="grp">
             <Col xs={12} md={6}>
-              <Card.Text className="text-card">
+              <Card.Text>
                 <span>Want to chat or learn more about me? Feel free to use my contact information on this page, or fill out the form below!</span>
               </Card.Text>
             </Col>
             <Col xs={12} md={6} className="text-center">
-              <ButtonGroup size="lg">
+              <ButtonGroup size="lg" className="button-grp">
                 <Button title="Email" variant="dark" href="mailto:jf2garci@uwaterloo.ca"><EmailIcon fontSize="large"/></Button>
                 <Button title="LinkedIn" variant="dark" href="https://www.linkedin.com/in/jesus-garciam/"><LinkedInIcon fontSize="large"/></Button>
                 <Button title="GitHub" variant="dark" href="https://github.com/gmjesus"><GitHubIcon fontSize="large"/></Button>
               </ButtonGroup>
             </Col>
           </Row>
-          <br />
-          { show
-            ? <Alert variant="success" onClose={() => setShow(false)} dismissible>
-                Message successfully sent!
-              </Alert>
-            : ""
-          }
           <Form name="contact" method="post" >
             <input type="hidden" name="form-name" value="contact" />
             <Form.Group controlId="name">
@@ -59,7 +45,6 @@ function Contact() {
               <Form.Label>Message</Form.Label>
               <Form.Control name="message" as="textarea" rows="3" placeholder="Enter message" required/>
             </Form.Group>
-            <div data-netlify-recaptcha="true"></div>
             <Button variant="dark" type="submit">Send</Button>
           </Form>
         </Card.Body>
