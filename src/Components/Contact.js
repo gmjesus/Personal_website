@@ -45,7 +45,7 @@ function Contact() {
               </Alert>
             : ""
           }
-          <Form name="contact" method="post" onSubmit={handleSubmit}>
+          <Form name="contact" method="post" >
             <input type="hidden" name="form-name" value="contact" />
             <Form.Group controlId="name">
               <Form.Label>Name</Form.Label>
@@ -59,7 +59,7 @@ function Contact() {
               <Form.Label>Message</Form.Label>
               <Form.Control name="message" as="textarea" rows="3" placeholder="Enter message" required/>
             </Form.Group>
-            <Button variant="dark" type="submit">Submit</Button>
+            <Button variant="dark" type="submit">Send</Button>
           </Form>
         </Card.Body>
         <Card.Footer className="text-center text-muted">&copy; 2020 Jesus Garcia Moreno. All Rights Reserved.</Card.Footer>
