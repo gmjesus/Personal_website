@@ -37,7 +37,7 @@ function Skills() {
           <hr />
           <Row>
             <Col className="divider">
-              <Card.Subtitle as="h4" className="text-muted">Programming Languages</Card.Subtitle>
+              <Card.Subtitle as="h4" className="text-muted">Programming Languages:</Card.Subtitle>
               <div className="logos">
                 {data.languages.map((item, key) => {
                   return(
