@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import '../App.css';
 import './Contact.css';
-import { Card, Container, Button, ButtonGroup, Row, Col, Form, Alert } from 'react-bootstrap';
+import { Card, Container, Button, ButtonGroup, Row, Col, Form } from 'react-bootstrap';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
 import GitHubIcon from '@material-ui/icons/GitHub';
