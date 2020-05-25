@@ -9,23 +9,23 @@ function Skills() {
   }, [])
 
   const data = {
-    "languages": [
-      { "title": "Python", "image": require('../Images/python.png')},
-      { "title": "C++", "image": require('../Images/cpp.png')},
-      { "title": "JavaScript", "image": require('../Images/js.svg')},
-      { "title": "Java", "image": require('../Images/java.png')}
+    languages: [
+      { title: "Python", image: require('../Images/python.png')},
+      { title: "C++", image: require('../Images/cpp.png')},
+      { title: "JavaScript", image: require('../Images/js.svg')},
+      { title: "Java", image: require('../Images/java.png')}
     ],
-    "tools": [
-      { "title": "ReactJS", "image": require('../Images/react.png')},
-      { "title": "MongoDB", "image": require('../Images/mongo.png')},
-      { "title": "NodeJS", "image": require('../Images/node.png')},
-      { "title": "Bootstrap", "image": require('../Images/bootstrap.png')},      
-      { "title": "Jest", "image": require('../Images/jest.png')},
-      { "title": "Git", "image": require('../Images/git.png')},
-      { "title": "Postman", "image": require('../Images/postman.png')},
-      { "title": "Jenkins", "image": require('../Images/jenkins.png')},
-      { "title": "Linux", "image": require('../Images/linux.png')},
-      { "title": "Visual Studio", "image": require('../Images/vs.png')}
+    tools: [
+      { title: "ReactJS", image: require('../Images/react.png')},
+      { title: "MongoDB", image: require('../Images/mongo.png')},
+      { title: "NodeJS", image: require('../Images/node.png')},
+      { title: "Bootstrap", image: require('../Images/bootstrap.png')},      
+      { title: "Jest", image: require('../Images/jest.png')},
+      { title: "Git", image: require('../Images/git.png')},
+      { title: "Postman", image: require('../Images/postman.png')},
+      { title: "Jenkins", image: require('../Images/jenkins.png')},
+      { title: "Linux", image: require('../Images/linux.png')},
+      { title: "Visual Studio", image: require('../Images/vs.png')}
     ]
   }
 

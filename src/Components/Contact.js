@@ -16,7 +16,7 @@ function Contact() {
       { title: "Email", link: "mailto:jf2garci@uwaterloo.ca", component: EmailIcon},
       { title: "LinkedIn", link: "https://www.linkedin.com/in/jesus-garciam/", component: LinkedInIcon},
       { title: "GitHub", link: "https://github.com/gmjesus", component: GitHubIcon}
-    ],
+    ]
   }
 
   return (

@@ -17,7 +17,7 @@ function Education() {
       { subject: "ECE", number: 150, title: "Fundamentals of Programming"},
       { subject: "ECE", number: 222, title: "Digital Computers"},
       { subject: "ECE", number: 250, title: "Algorithms and Data Structures"}
-    ],
+    ]
   }
 
   return (

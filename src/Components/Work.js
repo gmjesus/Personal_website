@@ -10,22 +10,22 @@ function Work() {
 
   const data = [
     {
-      "title": "Software Engineering Intern",
-      "company": "PagerDuty",
-      "company_link": "https://www.pagerduty.com/",
-      "image": require("../Images/pagerduty.png"),
-      "dates": "May - Aug 2020",
-      "details": [
+      title: "Software Engineering Intern",
+      company: "PagerDuty",
+      company_link: "https://www.pagerduty.com/",
+      image: require("../Images/pagerduty.png"),
+      dates: "May - Aug 2020",
+      details: [
         "To be determined..."
       ]
     },
     {
-      "title": "Software Engineering Intern",
-      "company": "Manulife",
-      "company_link": "https://manulife.ca/",
-      "image": require("../Images/manulife.png"),
-      "dates": "Sep - Dec 2019",
-      "details": [
+      title: "Software Engineering Intern",
+      company: "Manulife",
+      company_link: "https://manulife.ca/",
+      image: require("../Images/manulife.png"),
+      dates: "Sep - Dec 2019",
+      details: [
         "Architected and developed a full-stack application with MongoDB, ExpressJS, React, and NodeJS which would track scheduled outages for a variety of major services used by the Claims System Transformation team",
         "Contributed to a health-check app in React and C# that monitors the performance of microservices through API endpoints, which served as a test result and visualization service to reduce debugging time from hours to seconds",
         "Integrated email notifications to alert the responsible developers about the failed test run against their service",
@@ -34,12 +34,12 @@ function Work() {
       ]
     },
     {
-      "title": "QA Analyst",
-      "company": "BioConnect",
-      "company_link": "https://bioconnect.com/",
-      "image": require("../Images/bioconnect.png"),
-      "dates": "Jan - Apr 2019",
-      "details": [
+      title: "QA Analyst",
+      company: "BioConnect",
+      company_link: "https://bioconnect.com/",
+      image: require("../Images/bioconnect.png"),
+      dates: "Jan - Apr 2019",
+      details: [
         "Built automation scripts using Python to improve the test cycle by reducing the time spent on manual testing",
         "Kickstarted the automation test suite for the BioConnect Android mobile app using the Appium-Python client",
         "Significantly contributed to the Postman API validation test suite by adding over 75 end-to-end test cases, resulting in approximately a total of 1000 API requests with assertions written in JavaScript",
@@ -48,24 +48,24 @@ function Work() {
       ]
     },
     {
-      "title": "Back Shop",
-      "company": "Piper's Heath Golf Club",
-      "company_link": "https://pipersheath.com/",
-      "image": require("../Images/pipers.jpg"),
-      "dates": "Apr - Aug 2018",
-      "details": [
+      title: "Back Shop",
+      company: "Piper's Heath Golf Club",
+      company_link: "https://pipersheath.com/",
+      image: require("../Images/pipers.jpg"),
+      dates: "Apr - Aug 2018",
+      details: [
         "Performed as a team player with co-workers and other departments to increase productivity",
         "Greeted customers and provided them with clean, functional golf carts to boost customer satisfaction",
         "Announced tee times through a microphone to assure time optimization and golfers tee off on schedule"
       ]
     },
     {
-      "title": "Inventory Clerk",      
-      "company": "Elliott Machinery",
-      "company_link": "http://www.elliottmachinery.com/",
-      "image": require("../Images/elliott.png"),
-      "dates": "Nov - Dec 2017",
-      "details": [
+      title: "Inventory Clerk",      
+      company: "Elliott Machinery",
+      company_link: "http://www.elliottmachinery.com/",
+      image: require("../Images/elliott.png"),
+      dates: "Nov - Dec 2017",
+      details: [
         "Organized the amount of equipment and supplies available in storage with minimal supervision",
         "Maintained and compiled physical records of all attainable supplies to be computed in database"
       ]
