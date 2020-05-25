@@ -2,3 +2,8 @@
   float: right;
   width: 150px;
 }
+
+.list-group-item.active{
+  background-color: #343a40;
+  border-color: #343a40;
+}
