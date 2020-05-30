@@ -27,7 +27,7 @@ function Education() {
           <Card.Title as="h2">Education</Card.Title>
           <hr />
           <Card.Img className="image" src={photo} title="University of Waterloo" alt="University of Waterloo"/>
-          <h4>Univeristy of Waterloo - Waterloo, ON, Canada</h4>
+          <Card.Subtitle as="h4">Univeristy of Waterloo - Waterloo, ON, Canada</Card.Subtitle>
           <div>Bachelor of Applied Science - BASc, 2018-2023</div>
           <div>Program: Computer Engineering, Honours, Co-op</div>
           <br />

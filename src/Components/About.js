@@ -19,7 +19,7 @@ function About() {
           </Col>
           <Col xs={12} lg={8}>
             <Card.Title as="h1" className="text-center">Jesus Garcia Moreno</Card.Title>
-            <Card.Subtitle as="h2" className="text-center text-muted">Computer Engineering Student</Card.Subtitle>
+            <Card.Subtitle as="h4" className="text-center text-muted">Computer Engineering Student</Card.Subtitle>
             <hr />
             <Card.Text>
               <span>I'm a second-year computer engineering student studying at the <a rel="noopener noreferrer" href="https://uwaterloo.ca/" target="_blank">University of Waterloo</a>. On my free time, I'm usually watching some Netflix and anime, keeping up with soccer, attending hackathons and tech challenges, or hanging out with friends!</span>

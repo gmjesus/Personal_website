@@ -92,9 +92,9 @@ function Work() {
                   <Col xs={12} md={10}>
                     <div>
                       <ul>
-                        {item.details.map((detail, detail_key) => {
+                        {item.details.map((detail, key) => {
                           return(
-                            <li key={detail_key}>{detail}</li>
+                            <li key={key}>{detail}</li>
                           )
                         })}
                       </ul>
