@@ -4,7 +4,7 @@ import './Education.css';
 import { Card, Container, ListGroup } from 'react-bootstrap';
 import photo from '../Images/uwaterloo.png'
 
-function Education() {
+export default function Education() {
   useEffect(() => {
     document.title = "Jesus Garcia Moreno - Education";
   }, [])
@@ -47,5 +47,3 @@ function Education() {
     </Container>
   );
 }
-
-export default Education;

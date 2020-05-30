@@ -3,7 +3,7 @@ import '../App.css';
 import './Work.css';
 import { Card, Container, Row, Col, Image } from 'react-bootstrap';
 
-function Work() {
+export default function Work() {
   useEffect(() => {
     document.title = "Jesus Garcia Moreno - Work";
   }, [])
@@ -110,5 +110,3 @@ function Work() {
     </Container>
   );
 }
-
-export default Work;

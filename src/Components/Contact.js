@@ -6,7 +6,7 @@ import EmailIcon from '@material-ui/icons/Email';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
-function Contact() {
+export default function Contact() {
   useEffect(() => {
     document.title = "Jesus Garcia Moreno - Contact";
   }, [])
@@ -66,5 +66,3 @@ function Contact() {
     </Container>
   );
 }
-
-export default Contact;

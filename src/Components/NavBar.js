@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import resume from "../resume.pdf";
 import logo from "../Images/logo.png";
 
-function NavBar() {
+export default function NavBar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
       <Container>
@@ -36,5 +36,3 @@ function NavBar() {
     </Navbar>
   );
 }
-
-export default NavBar;

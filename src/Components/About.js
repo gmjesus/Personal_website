@@ -4,7 +4,7 @@ import './About.css';
 import { Card, Container, Image, Col, Row } from 'react-bootstrap';
 import photo from '../Images/jesus_gm.jpg'
 
-function About() {
+export default function About() {
   useEffect(() => {
     document.title = "Jesus Garcia Moreno - About";
   }, [])
@@ -34,5 +34,3 @@ function About() {
     </Container>
   );
 }
-
-export default About;

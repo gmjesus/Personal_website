@@ -3,7 +3,7 @@ import '../App.css';
 import './Skills.css';
 import { Card, Container, Col, Row, Image } from 'react-bootstrap';
 
-function Skills() {
+export default function Skills() {
   useEffect(() => {
     document.title = "Jesus Garcia Moreno - Skills";
   }, [])
@@ -78,5 +78,3 @@ function Skills() {
     </Container>
   );
 }
-
-export default Skills;
