@@ -15,17 +15,20 @@ function Skills() {
       { title: "JavaScript", image: require('../Images/js.svg')},
       { title: "Java", image: require('../Images/java.png')}
     ],
-    tools: [
+    frameworks: [
       { title: "ReactJS", image: require('../Images/react.png')},
-      { title: "MongoDB", image: require('../Images/mongo.png')},
       { title: "NodeJS", image: require('../Images/node.png')},
       { title: "Bootstrap", image: require('../Images/bootstrap.png')},      
       { title: "Jest", image: require('../Images/jest.png')},
+    ],
+    tools: [
+      { title: "MongoDB", image: require('../Images/mongo.png')},
+      { title: "Microsoft SQL Server", image: require('../Images/sql-server.svg')},
       { title: "Git", image: require('../Images/git.png')},
-      { title: "Postman", image: require('../Images/postman.png')},
       { title: "Jenkins", image: require('../Images/jenkins.png')},
+      { title: "Pivotal Cloud Foundry", image: require('../Images/pcf.png')},
       { title: "Linux", image: require('../Images/linux.png')},
-      { title: "Visual Studio", image: require('../Images/vs.png')}
+      { title: "Postman", image: require('../Images/postman.png')}
     ]
   }
 
@@ -36,21 +39,33 @@ function Skills() {
           <Card.Title as="h2">Technical Skills</Card.Title>
           <hr />
           <Row>
-            <Col className="divider">
+            <Col xs={12} sm={6}>
               <Card.Subtitle as="h4" className="text-muted">Programming Languages:</Card.Subtitle>
               <div className="logos">
                 {data.languages.map((item, key) => {
-                  return(
+                  return (
                     <Image src={item.image} title={item.title} key={key}/>
                   )
                 })}
               </div>
             </Col>
+            <Col xs={12} sm={6}>
+              <Card.Subtitle as="h4" className="text-muted">Frameworks & Libraries:</Card.Subtitle>
+              <div className="logos">
+                {data.frameworks.map((item, key) => {
+                  return (
+                    <Image src={item.image} title={item.title} key={key}/>
+                  )
+                })}
+              </div>
+            </Col>
+          </Row>
+          <Row>
             <Col>
-              <Card.Subtitle as="h4" className="text-muted">Tools & Technologies:</Card.Subtitle>
+              <Card.Subtitle as="h4" className="text-muted">Databases & Tools:</Card.Subtitle>
               <div className="logos">
                 {data.tools.map((item, key) => {
-                  return(
+                  return (
                     <Image src={item.image} title={item.title} key={key}/>
                   )
                 })}
