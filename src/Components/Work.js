@@ -16,7 +16,10 @@ export default function Work() {
       image: require("../Images/pagerduty.png"),
       dates: "May - Aug 2020",
       details: [
-        "To be determined..."
+        "Developed and maintained distributed, fault-tolerant Elixir microservices using Kafka as a pub-sub and queue-based messaging system, these services resided in a mission-critical data pipeline that requires maximum uptime",
+        "Released new features in the Event Intelligence Product by following test-driven development best practices and monitored its usage through Datadog dashboards to improve performance visibility",
+        "Performed several MySQL database migrations and worked on monolithic codebases written in Ruby and EmberJS",
+        "Debugged and fixed customer-reported bugs by investigating Sumo Logic logs and utilizing internal tools"
       ]
     },
     {
