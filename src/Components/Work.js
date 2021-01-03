@@ -14,6 +14,16 @@ export default function Work() {
       company: "PagerDuty",
       company_link: "https://www.pagerduty.com/",
       image: require("../Images/pagerduty.png"),
+      dates: "Jan - Apr 2021",
+      details: [
+        "To be determined..."
+      ]
+    },
+    {
+      title: "Software Engineering Intern",
+      company: "PagerDuty",
+      company_link: "https://www.pagerduty.com/",
+      image: require("../Images/pagerduty.png"),
       dates: "May - Aug 2020",
       details: [
         "Developed and maintained distributed, fault-tolerant Elixir microservices using Kafka as a pub-sub and queue-based messaging system, these services resided in a mission-critical data pipeline that requires maximum uptime",
@@ -60,17 +70,6 @@ export default function Work() {
         "Performed as a team player with co-workers and other departments to increase productivity",
         "Greeted customers and provided them with clean, functional golf carts to boost customer satisfaction",
         "Announced tee times through a microphone to assure time optimization and golfers tee off on schedule"
-      ]
-    },
-    {
-      title: "Inventory Clerk",      
-      company: "Elliott Machinery",
-      company_link: "http://www.elliottmachinery.com/",
-      image: require("../Images/elliott.png"),
-      dates: "Nov - Dec 2017",
-      details: [
-        "Organized the amount of equipment and supplies available in storage with minimal supervision",
-        "Maintained and compiled physical records of all attainable supplies to be computed in database"
       ]
     }
   ]
