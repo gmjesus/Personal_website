@@ -12,23 +12,27 @@ export default function Skills() {
     languages: [
       { title: "Python", image: require('../Images/python.png')},
       { title: "C++", image: require('../Images/cpp.png')},
-      { title: "JavaScript", image: require('../Images/js.svg')},
-      { title: "Java", image: require('../Images/java.png')}
+      { title: "Elixir", image: require('../Images/elixir.png')},
+      { title: "JavaScript", image: require('../Images/js.svg')}
     ],
     frameworks: [
-      { title: "ReactJS", image: require('../Images/react.png')},
+      { title: "Phoenix", image: require('../Images/phoenix.png')},
       { title: "NodeJS", image: require('../Images/node.png')},
+      { title: "ReactJS", image: require('../Images/react.png')},
       { title: "Bootstrap", image: require('../Images/bootstrap.png')},      
-      { title: "Jest", image: require('../Images/jest.png')},
+      { title: "Selenium", image: require('../Images/selenium.png')},
     ],
     tools: [
+      { title: "MySQL", image: require('../Images/mysql.png')},
       { title: "MongoDB", image: require('../Images/mongo.png')},
-      { title: "Microsoft SQL Server", image: require('../Images/sql-server.svg')},
-      { title: "Git", image: require('../Images/git.png')},
-      { title: "Jenkins", image: require('../Images/jenkins.png')},
-      { title: "Pivotal Cloud Foundry", image: require('../Images/pcf.png')},
-      { title: "Linux", image: require('../Images/linux.png')},
-      { title: "Postman", image: require('../Images/postman.png')}
+      { title: "Kafka", image: require('../Images/kafka.png')},
+      { title: "AWS", image: require('../Images/aws.png')},
+      { title: "Terraform", image: require('../Images/terraform.png')},
+      { title: "Docker", image: require('../Images/docker.png')},
+      { title: "CircleCI", image: require('../Images/circleci.png')},
+      { title: "Buildkite", image: require('../Images/buildkite.png')},
+      { title: "Datadog", image: require('../Images/datadog.png')},
+      { title: "Git", image: require('../Images/git.png')}
     ]
   }
 
@@ -62,7 +66,7 @@ export default function Skills() {
           </Row>
           <Row>
             <Col>
-              <Card.Subtitle as="h4" className="text-muted">Databases & Tools:</Card.Subtitle>
+              <Card.Subtitle as="h4" className="text-muted">Software & Tools:</Card.Subtitle>
               <div className="logos">
                 {data.tools.map((item, key) => {
                   return (
