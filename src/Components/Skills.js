@@ -23,11 +23,11 @@ export default function Skills() {
       { title: "Selenium", image: require('../Images/selenium.png')},
     ],
     tools: [
-      { title: "MySQL", image: require('../Images/mysql.png')},
-      { title: "MongoDB", image: require('../Images/mongo.png')},
-      { title: "Kafka", image: require('../Images/kafka.png')},
       { title: "AWS", image: require('../Images/aws.png')},
       { title: "Terraform", image: require('../Images/terraform.png')},
+      { title: "Kafka", image: require('../Images/kafka.png')},
+      { title: "MySQL", image: require('../Images/mysql.png')},
+      { title: "MongoDB", image: require('../Images/mongo.png')},
       { title: "Docker", image: require('../Images/docker.png')},
       { title: "CircleCI", image: require('../Images/circleci.png')},
       { title: "Buildkite", image: require('../Images/buildkite.png')},
@@ -54,7 +54,7 @@ export default function Skills() {
               </div>
             </Col>
             <Col xs={12} sm={6}>
-              <Card.Subtitle as="h4" className="text-muted">Frameworks & Libraries:</Card.Subtitle>
+              <Card.Subtitle as="h4" className="text-muted">Frameworks:</Card.Subtitle>
               <div className="logos">
                 {data.frameworks.map((item, key) => {
                   return (
@@ -66,7 +66,7 @@ export default function Skills() {
           </Row>
           <Row>
             <Col>
-              <Card.Subtitle as="h4" className="text-muted">Software & Tools:</Card.Subtitle>
+              <Card.Subtitle as="h4" className="text-muted">Technologies:</Card.Subtitle>
               <div className="logos">
                 {data.tools.map((item, key) => {
                   return (
