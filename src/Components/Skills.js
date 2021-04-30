@@ -77,7 +77,7 @@ export default function Skills() {
             </Col>
           </Row>
         </Card.Body>
-        <Card.Footer className="text-center text-muted">&copy; 2020 Jesus Garcia Moreno. All Rights Reserved.</Card.Footer>
+        <Card.Footer className="text-center text-muted">&copy; 2021 Jesus Garcia Moreno. All Rights Reserved.</Card.Footer>
       </Card>
     </Container>
   );

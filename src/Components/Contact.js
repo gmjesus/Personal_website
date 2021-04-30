@@ -61,7 +61,7 @@ export default function Contact() {
             <Button variant="dark" type="submit">Send</Button>
           </Form>
         </Card.Body>
-        <Card.Footer className="text-center text-muted">&copy; 2020 Jesus Garcia Moreno. All Rights Reserved.</Card.Footer>
+        <Card.Footer className="text-center text-muted">&copy; 2021 Jesus Garcia Moreno. All Rights Reserved.</Card.Footer>
       </Card>
     </Container>
   );
