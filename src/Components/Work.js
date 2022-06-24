@@ -11,6 +11,19 @@ export default function Work() {
   const data = [
     {
       title: "Software Engineering Intern",
+      company: "Cisco Meraki",
+      company_link: "https://meraki.cisco.com/",
+      image: require("../Images/meraki.webp"),
+      dates: "Jan - Apr 2022",
+      details: [
+        "Re‑architected the existing Meraki click‑through splash page into a highly available Go microservice to eliminate its downtime during maintenance, the previous implementation lived inside a Rails monolith which was prone to unrelated outages and disruption.",
+        "Leveraged Kubernetes to orchestrate the deployment, management and scaling of Docker containers, running Go and NGINX applications.",
+        "Published asynchronous RabbitMQ messages to authenticate end‑users to the Internet, enforcing a fault‑tolerant system.",
+        "Led an investigation about distributed tracing solutions to track and observe requests as they propagate through various services."
+      ]
+    },
+    {
+      title: "Software Engineering Intern",
       company: "PagerDuty",
       company_link: "https://www.pagerduty.com/",
       image: require("../Images/pagerduty.png"),
@@ -51,7 +64,7 @@ export default function Work() {
       ]
     },
     {
-      title: "QA Analyst",
+      title: "QA Analyst Intern",
       company: "BioConnect",
       company_link: "https://bioconnect.com/",
       image: require("../Images/bioconnect.png"),
@@ -62,18 +75,6 @@ export default function Work() {
         "Significantly contributed to the Postman API validation test suite by adding over 75 end-to-end test cases, resulting in approximately a total of 1000 API requests with assertions written in JavaScript.",
         "Worked closely with Development and QA teams to plan and execute tests across mobile, server-client, RESTful APIs, SQL databases, and hardware devices to ensure it meets the specified requirements.",
         "Identified, analyzed, and implemented appropriate automation technology for respective platforms."
-      ]
-    },
-    {
-      title: "Back Shop",
-      company: "Piper's Heath Golf Club",
-      company_link: "https://pipersheath.com/",
-      image: require("../Images/pipers.jpg"),
-      dates: "Apr - Aug 2018",
-      details: [
-        "Performed as a team player with co-workers and other departments to increase productivity.",
-        "Greeted customers and provided them with clean, functional golf carts to boost customer satisfaction.",
-        "Announced tee times through a microphone to assure time optimization and golfers tee off on schedule."
       ]
     }
   ]

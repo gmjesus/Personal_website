@@ -22,9 +22,11 @@ export default function About() {
             <Card.Subtitle as="h4" className="text-center text-muted">Computer Engineering Student</Card.Subtitle>
             <hr />
             <Card.Text>
-              <span>I'm a third-year computer engineering student studying at the <a rel="noopener noreferrer" href="https://uwaterloo.ca/" target="_blank">University of Waterloo</a>. On my free time, I'm usually watching some Netflix and anime, keeping up with soccer, <a rel="noopener noreferrer" href="https://www.goodreads.com/jesus-garciam" target="_blank">reading</a>, attending hackathons and tech challenges, or hanging out with friends!</span>
+              <span>I'm a fourth-year computer engineering student studying at the <a rel="noopener noreferrer" href="https://uwaterloo.ca/" target="_blank">University of Waterloo</a>. On my free time, I'm usually watching some Netflix and anime, keeping up with soccer, <a rel="noopener noreferrer" href="https://www.goodreads.com/jesus-garciam" target="_blank">reading</a>, attending hackathons and tech challenges, or hanging out with friends!</span>
               <br /><br />
-              <span>I have a demonstrated history of working in the information technology and computer software industry. With a strong working knowledge in Python, C/C++, Elixir, and JavaScript, I'm actively seeking new software engineering internships!</span>
+              <span>I have a demonstrated history of working in the information technology and computer software industry through my past internships, where I developed a strong working knowledge in Python, Go, Elixir, and several other technologies.</span>
+              <br /><br />
+              <span>I'm actively seeking 2023 New Grad Software Engineer roles!</span>
             </Card.Text>
           </Col>
         </Row>

@@ -12,11 +12,10 @@ export default function Education() {
   const data = {
     ece_courses_link: "http://www.ucalendar.uwaterloo.ca/2021/COURSE/course-ECE.html",
     courses: [
-      { subject: "ECE", number: 124, title: "Digital Circuits and Systems"},
-      { subject: "ECE", number: 150, title: "Fundamentals of Programming"},
-      { subject: "ECE", number: 222, title: "Digital Computers"},
       { subject: "ECE", number: 250, title: "Algorithms and Data Structures"},
-      { subject: "ECE", number: 252, title: "Systems Programming and Concurrency"}
+      { subject: "ECE", number: 252, title: "Systems Programming and Concurrency"},
+      { subject: "ECE", number: 356, title: "Database Systems"},
+      { subject: "ECE", number: 454, title: "Distributed Computing"}
     ]
   }
 

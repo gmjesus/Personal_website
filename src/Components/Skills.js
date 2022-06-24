@@ -11,7 +11,7 @@ export default function Skills() {
   const data = {
     languages: [
       { title: "Python", image: require('../Images/python.png')},
-      { title: "C++", image: require('../Images/cpp.png')},
+      { title: "Go", image: require('../Images/go.png')},
       { title: "Elixir", image: require('../Images/elixir.png')},
       { title: "JavaScript", image: require('../Images/js.svg')}
     ],
